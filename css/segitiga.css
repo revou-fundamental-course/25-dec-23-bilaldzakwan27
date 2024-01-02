@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;700&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap');
+body {
+  font-family: 'poppins';
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.calculator-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+.imgLuas{
+  width: 30%;
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green; 
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #004225; 
+}
+
+button.reset {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.reset:hover {
+  background-color: #c0392b;
+}
+
+p {
+  margin-top: 10px;
+  color: #2c3e50;
+  font-weight: bold;
+}
