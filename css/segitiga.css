@@ -14,7 +14,10 @@ body {
   border-radius: 30px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
+.calculator-container h1{
+  text-align: center;
+  
+}
 h1, h2 {
   color: #2c3e50;
 }
